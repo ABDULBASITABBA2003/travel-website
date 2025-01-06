@@ -182,3 +182,43 @@
 .special-features-card img {
     margin-bottom: -12px;
 }
+
+/* reviews-section */
+/* highlight-card */
+.highlights-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.highlight-card h2, 
+.highlight-card p {
+    margin: 0;
+    padding: 5px;
+}
+
+.highlight-card h2 {
+    font-size: 2.2em;
+}
+
+/* explorers image positioning */
+.exploring-couple {
+    position: relative;
+    text-align: center;
+    max-width: 300px;
+}
+
+.explorers {
+    width: 100%;
+}
+
+.shape {
+    position: absolute;
+    max-width: 300px;
+    top: 125px;
+    left: 25px;
+    z-index: -1;
+}
+
+.explorers{
+    width: 350px;
+}
