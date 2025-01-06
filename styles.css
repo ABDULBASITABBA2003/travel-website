@@ -222,3 +222,31 @@
 .explorers{
     width: 350px;
 }
+/* docs-section */
+.docs-video {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.docs-section h2 {
+    font-size: 2.2em;
+}
+
+.docs-heading {
+    text-align: center;
+
+}
+
+/* button */
+.action-button{
+    width: 147px;
+    height: 54px;
+    background: var(--primary);
+    border: 2px solid var(--primary);
+    padding: 6px 12px;
+    color: #fff;
+    display: inline-block;
+    margin: 10px;
+}
