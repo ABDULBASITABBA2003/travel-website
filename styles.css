@@ -269,4 +269,17 @@
     justify-content: center;
     margin-top: 10px;
 }
+/* links */
+.footer-links {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding: 2px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.footer-links li {
+    margin: 10px;
+}
 
