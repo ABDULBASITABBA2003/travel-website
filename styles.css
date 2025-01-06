@@ -4,3 +4,109 @@
     justify-content: space-between;
     padding: 20px;
 }
+.navigation-bar p {
+    padding: 0;
+}
+.menu-icon {
+    display: inline-block;
+    height: 24px;
+    padding: 1%px;
+}
+/* header */
+.page-header {
+    text-align: center;
+    padding: 0;
+}
+/* first image positioning */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image-box {
+    position: relative;
+    width: 500px;
+    height: 250px;
+}
+
+.hero-image-box img {
+    position: absolute;
+    width: 100%;
+    object-fit: cover;
+}
+
+.selfie-image {
+    z-index: 0;
+    top: 5px;
+    left: 0;
+}
+
+.ellipse {
+    z-index: -1;
+    top: 12px;
+    left: 0;
+}
+
+.blur-background {
+    z-index: -2;
+    top: -156px;
+    left: 0;
+}
+/* sections */
+.travel-section,
+.features-section,
+.reviews-section,
+.docs-section {
+    margin: 0 10px;
+    padding: auto;
+}
+
+/* travel-section */
+.travel-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.place-images {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.travel-cards {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background: #ffffff;
+}
+
+.travel-cards{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.card-description{
+    margin-left: 10px;
+}
+
+.card-description p{
+    font-size: 16px;
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+.card-description h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.map-icon {
+    width: 24px;
+    margin-right: 5px;
+    margin-bottom: -4px;
+    display: inline-block;
+}
