@@ -19,7 +19,7 @@
 
 <section id="live-demo">
             <h2>Live Demo</h2>
-            <p>Live Demo Link</p>
+            <p>Live Demo Link: <a href="https://travel-website-bl27.onrender.com">Click to view a Live Demo</a></p>
  </section>
 
 <section id="features">
