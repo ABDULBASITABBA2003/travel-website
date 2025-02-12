@@ -52,11 +52,11 @@ h2 {
 }
 
 h3{
-    font-size: 2.2em;
+    font-size: 2.1em;
 }
 
 p{
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 /* highlighted colored text */
@@ -78,7 +78,10 @@ p{
 .menu-icon {
     display: inline-block;
     height: 24px;
-    padding: 1%px;
+}
+
+.menu-2 {
+    display: none;
 }
 
 /* header */
@@ -130,7 +133,6 @@ p{
 .reviews-section,
 .docs-section {
     margin: 0 10px;
-    padding: auto;
 }
 
 /* travel-section */
@@ -299,8 +301,6 @@ p{
 .docs-video {
     width: 100%;
     height: auto;
-    margin: 0 auto;
-    padding: 10px;
 }
 
 .docs-section h2 {
@@ -363,7 +363,7 @@ p{
 @media screen and (min-width: 960px) {
     
     body {
-        margin: 0 100px;
+        margin: 0;
     }
 
     .hero-container h1 {
@@ -420,7 +420,7 @@ p{
 
     .inline-h2 {
         display: inline-block;
-        margin-right: 700px;
+        margin-right: 500px;
     }
 
     footer {
@@ -461,4 +461,118 @@ p{
     h2 {
         font-size: 24px;
     }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        margin: 0;
+    }
+
+    .hero-container h1 {
+        text-align: center;
+    }
+
+    .hero-image-box {
+        width: 750px;
+    }
+
+    .hero{
+        padding-bottom: 200px;
+    }
+
+    .blur-background {
+        z-index: -2;
+        top: -231px;
+        left: 0;
+    }
+
+    .menu-icon {
+        display: none;
+        height: 24px;
+    }
+    
+    .menu-2 {
+        display: inline-block;
+        height: 24px;
+    }
+
+    .travel-section h2 {
+        text-align: center;
+    }
+
+    .travel-section p {
+        text-align: center;
+    }
+
+    .travel-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card-description p {
+        text-align: left;
+    }
+
+    .features-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+
+    .highlights-grid {
+       display: flex;
+       justify-content: space-evenly;
+        gap: 40px;
+    }
+
+    .reviews-section {
+        margin-top: 100px;
+    }
+
+    .highlights h2 {
+        max-width: 390px;
+        font-size: 50px;
+    }
+
+    .highlights p {
+        max-width: 404px;
+        text-align: justify;
+    }
+
+    .explorers {
+        width: 400px;
+    }
+
+    .shape {
+        top: 162px;
+        left: 38px;
+    }
+    }
+
+    .inline-h2 {
+        display: inline-block;
+        margin-right: 400px;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, minmax(20px, auto));
+        gap: 20px;
+    }
+
+    .footer-info p {
+        width: 60%;
+    }
+
+    .social-icons {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        justify-content: start;
+    }
+
+    .footer-links {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin-top: 20px;
+    }
+   
 }
