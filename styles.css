@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.rotation {
+    background-position: center;
+    transform: rotate(180deg);
+}
+
 /* variables */
 :root {
     --primary: #25A59E;
@@ -26,38 +31,12 @@ p, h1, h2, h3 {
 }
 
 body {
-    font-family: 'Gill Sans', sans-serif;
     overflow-x: hidden;
-    line-height: 1.6;
+    line-height: 1.3;
     background: #e9e6e6;
     min-height: 100vh;
 }
 
-/* heading font family */
-
-h1, h2, h3 {
-    font-family: 'Times New Roman', Times, serif;
-}
-
-/* fonts size*/
-h1 {
-    font-size: 2.8em;
-}
-h1, h2, h3, h4{
-    font-weight: normal;
-}
-
-h2 {
-    font-size: 1.5em;
-}
-
-h3{
-    font-size: 2.1em;
-}
-
-p{
-    font-size: 1em;
-}
 
 /* highlighted colored text */
 .highlighted-text {
@@ -164,15 +143,12 @@ p{
     margin-left: 10px;
 }
 
-.card-description p{
-    font-size: 16px;
+.card-description p {
     margin: 0 0 10px 0;
     padding: 0;
 }
 
 .card-description h3 {
-    font-size: 1.2em;
-    font-weight: bold;
     margin-bottom: 5px;
     padding: 0;
 }
@@ -205,7 +181,6 @@ p{
 }
 
 .features-section h2 {
-    font-size: 3rem;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 0;
@@ -270,9 +245,6 @@ p{
     padding: 5px;
 }
 
-.highlight-card h2 {
-    font-size: 2.2em;
-}
 
 /* explorers image positioning */
 .exploring-couple {
@@ -303,9 +275,6 @@ p{
     height: auto;
 }
 
-.docs-section h2 {
-    font-size: 2.2em;
-}
 
 .docs-heading {
     text-align: center;
@@ -378,6 +347,12 @@ p{
         padding-bottom: 200px;
     }
 
+    .rotation {
+        background-position: center;
+        transform: rotate(180deg);
+    }
+    
+
     .blur-background {
         z-index: -2;
         top: -231px;
@@ -403,6 +378,11 @@ p{
     .features-grid {
         grid-template-columns: repeat(3, 1fr);
         gap: 30px;
+        margin: 0 30px;
+    }
+
+    .features-grid h3 {
+        font-size: 1.5em;
     }
 
     .highlights-grid {
@@ -448,28 +428,20 @@ p{
 
 }
 
-/* font size */
-@media screen and (min-width: 960px) {
-    body {
-        font-size: 18px;
-    }
-
-    h1 {
-        font-size: 150px;
-    }
-
-    h2 {
-        font-size: 24px;
-    }
-}
-
 @media screen and (min-width: 1024px) {
     body {
         margin: 0;
     }
+    
+    .hero-container {
+        width: 850px;
+        margin: 0 auto;
+    }
 
     .hero-container h1 {
         text-align: center;
+        font-size: 130px;
+        padding: 0;
     }
 
     .hero-image-box {
@@ -497,6 +469,7 @@ p{
     }
 
     .travel-section h2 {
+        font-size: 50px;
         text-align: center;
     }
 
@@ -551,6 +524,15 @@ p{
         margin-right: 400px;
     }
 
+    .doc-text {
+        width: 620px;
+        margin: 0 auto;
+    }
+
+    .doc-text h2 {
+       font-size: 69px;
+    }
+
     footer {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -585,6 +567,5 @@ p{
 .urbanist {
     font-family: "Urbanist", serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
 } 
