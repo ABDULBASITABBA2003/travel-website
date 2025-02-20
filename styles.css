@@ -545,8 +545,7 @@ p{
         top: 162px;
         left: 38px;
     }
-    }
-
+    
     .inline-h2 {
         display: inline-block;
         margin-right: 400px;
@@ -576,3 +575,16 @@ p{
     }
    
 }
+
+.gilda-display-regular {
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.urbanist {
+    font-family: "Urbanist", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+} 

@@ -8,6 +8,7 @@
 <li><a href="#technologies-used">Technologies Used</a></li>
 <li><a href="#setup-and-installation">Setup and Installation</a></li>
 <li><a href="#usage">Usage</a></li>
+<li><a href="#video">Loom Video</a></li>
 <li><a href="#license">License</a></li>
 <li><a href="#authors">Author(s)</a></li>
 </ul>
@@ -59,6 +60,13 @@
 <li>Explore homepage</li>
 <li>Navigate sections</li>
 <li>Use footer links or social media links</li>
+</ol>
+</section>
+
+<section id="video">
+  <h2>Loom Video</h2>
+<ol>
+<li><a href="https://www.loom.com/share/36dd4cf6b9d84171961d3bb0ba2c762b?sid=f5679c6c-dde5-4232-ab0f-071c3c3ad87c">Click to watch the loom video</a></li>
 </ol>
 </section>
 
